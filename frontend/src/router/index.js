@@ -11,11 +11,12 @@ const router = new VueRouter({
       path: '/',
       name: 'home',
       component: () => import('../views/home'),
-      redirect: '/example',
-      children: [
-        ...example
-      ]
-    }
+      // redirect: '/example',
+      // children: [
+      //   ...example
+      // ]
+    },
+    ...example
   ]
 })
 
