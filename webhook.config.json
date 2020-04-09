@@ -1,0 +1,9 @@
+{
+    "projectName": "plugin-store",
+    "rootPath": "/home/project",
+    "commands": [
+        "cd frontend",
+        "yarn",
+        "yarn build"
+    ]
+}
