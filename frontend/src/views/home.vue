@@ -9,7 +9,7 @@ export default {
           url: ''
         },
         {
-          title: '测试',
+          title: '测试 webhook',
           url: '/example'
         },
       ],
